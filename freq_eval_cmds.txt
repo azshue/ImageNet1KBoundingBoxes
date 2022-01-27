@@ -1,8 +1,10 @@
-python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model vit_base_patch16_384 --pretrained -b 128 --high_pass --low_pass_limit 0.03
-python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model vit_base_patch16_384 --pretrained -b 128 --high_pass --low_pass_limit 0.04
-python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model vit_large_patch16_384 --pretrained -b 100 --high_pass --low_pass_limit 0.03
-python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model vit_large_patch16_384 --pretrained -b 100 --high_pass --low_pass_limit 0.04
-python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model resnet50 --pretrained -b 128 --high_pass --low_pass_limit 0.03
-python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model resnet50 --pretrained -b 128 --high_pass --low_pass_limit 0.04
-python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model resnet152d --pretrained -b 128 --high_pass --low_pass_limit 0.03
-python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model resnet152d --pretrained -b 128 --high_pass --low_pass_limit 0.04
+python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model vit_base_patch16_384 --pretrained -b 128 --low_pass_limit 0.5
+python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model vit_base_patch16_384 --pretrained -b 128 --low_pass_limit 0.45
+python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model vit_base_patch16_384 --pretrained -b 128 --low_pass_limit 0.4
+python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model vit_base_patch16_384 --pretrained -b 128 --low_pass_limit 0.35
+python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model vit_base_patch16_384 --pretrained -b 128 --low_pass_limit 0.3
+python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model vit_base_patch16_384 --pretrained -b 128 --low_pass_limit 0.25
+python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model vit_base_patch16_384 --pretrained -b 128 --low_pass_limit 0.2
+python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model vit_base_patch16_384 --pretrained -b 128 --low_pass_limit 0.15
+python ./test.py /fs/cml-datasets/ImageNet/ILSVRC2012 --model vit_base_patch16_384 --pretrained -b 128 --low_pass_limit 0.1
+
