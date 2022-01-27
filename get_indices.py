@@ -3,7 +3,7 @@ import torch
 
 
 def main():
-    dataset = ImageFolder(root='./data/imagenet/train', transform=None)
+    dataset = ImageFolder(root='/fs/cml-datasets/ImageNet/ILSVRC2012/train', transform=None)
     boxes = torch.load('boxes.pt')
     merged = {}
     for k, v in boxes.items():
